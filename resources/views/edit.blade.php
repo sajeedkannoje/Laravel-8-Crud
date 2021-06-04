@@ -33,8 +33,6 @@
                 @endif
                 @csrf
                 
-
-
                 <div class="col-md-12">
                     <label for="validationCustom01" class="form-label">Full Name</label>
                     <input type="text" class="form-control" id="validationCustom01" value="{{$student->name}}" name="name"
